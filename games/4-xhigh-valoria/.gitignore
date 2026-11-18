@@ -1,0 +1,30 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Export outputs
+/exports/
+/build/
+*.pck
+
+# Backups and Blender autosaves (the master .blend is tracked, its backups are not)
+/backups/
+*.blend1
+*.blend2
+
+# Local QA scratch output (curated screenshots in qa/screenshots are tracked)
+/qa/tmp/
+
+# OS cruft
+Thumbs.db
+.DS_Store
+
+# Local agent settings
+.claude/settings.local.json
+
+# Generated world data (reproducible: tools/world_bake.gd, or auto-generated on first launch)
+/world/generated/
+
+# Python bytecode from the Blender helper scripts
+__pycache__/
+*.pyc

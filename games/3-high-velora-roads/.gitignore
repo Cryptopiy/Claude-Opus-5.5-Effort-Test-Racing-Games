@@ -1,0 +1,28 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Export outputs
+/export/
+/builds/
+*.pck
+*.exe
+
+# Blender backups and autosaves
+/backups/
+*.blend1
+*.blend2
+
+# Test/QA scratch output (screenshots worth keeping go to docs/screenshots)
+/qa_out/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Note: *.import files are intentionally NOT ignored.
+
+# Local agent settings
+.claude/settings.local.json
+
+/build/

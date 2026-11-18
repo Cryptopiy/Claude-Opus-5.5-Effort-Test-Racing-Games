@@ -1,0 +1,24 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# NOTE: *.import files are intentionally NOT ignored (Godot needs them to keep UIDs/import settings).
+
+# Export / packaging outputs
+/export/
+/build/
+/dist/
+
+# Backups and Blender autosaves (the master .blend itself IS tracked)
+/backups/
+*.blend1
+*.blend2
+*.blend@
+
+# Local agent / tool state
+.claude/settings.local.json
+__pycache__/
+*.pyc
+
+# QA scratch output (curated screenshots live in docs/screenshots/)
+/qa_out/

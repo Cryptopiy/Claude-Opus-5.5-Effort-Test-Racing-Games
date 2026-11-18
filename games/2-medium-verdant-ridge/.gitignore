@@ -1,0 +1,16 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+# exports / builds
+/export/
+/build/
+*.tmp
+# backups of the master blend
+/backups/
+*.blend1
+# screenshots / qa captures
+/qa/screens/
+/qa/qa_log_*.txt
+/qa/qa_live.txt
+/qa/*.out
+/build/
